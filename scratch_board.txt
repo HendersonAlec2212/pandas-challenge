@@ -27,3 +27,5 @@ purchase_analysis_df
 
 
 
+print(unique_item_num)
+test_list_len = len(purchase_analysis.get())
