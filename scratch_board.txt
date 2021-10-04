@@ -1,0 +1,29 @@
+unique_item_count = 
+
+purchase_data_df.dropna(subset = root_column_list, inplace=True)
+purchase_data_df.count()
+
+# MARKDOWN - Purchasing Analysis (Total)
+# Number of Unique Items
+# Average Purchase Price
+# Total Number of Purchases
+# Total Revenue
+
+
+### Number of Unique Items
+unique_item_num = int(len(pd.unique(purchase_data_df['Item ID'])))
+
+
+
+purchase_analysis = {
+    'Number of Unique Items': [unique_item_num],
+    'Average Price': [],
+    'Number of Purchases': [],
+    'Total Revenue': [],
+}
+
+purchase_analysis_df = pd.DataFrame(purchase_analysis)
+purchase_analysis_df
+
+
+
