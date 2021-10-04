@@ -29,3 +29,8 @@ purchase_analysis_df
 
 print(unique_item_num)
 test_list_len = len(purchase_analysis.get())
+
+
+# gender_values = purchase_data_df['Gender'].value_counts().keys.tolist()
+# gender_counts = purchase_data_df['Gender'].value_counts().tolist()
+# gender_dict = dict(zip(gender_values, gender_counts))
